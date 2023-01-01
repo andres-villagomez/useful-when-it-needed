@@ -132,3 +132,7 @@ Excecute bash with Ansible
 ```
 shell: excecute_linux_commands
 ```
+Excecute Playbook with Ansible
+```
+ansible-playbook -i host_file yml_file.yml
+```
