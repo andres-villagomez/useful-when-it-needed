@@ -123,6 +123,15 @@ Login to MySQL
 ```
 mysql -u username -p password
 ```
+Create DB
+```
+CREATE DATABASE DATABASE_NAME;
+```
+Create Table
+```
+USE DATABASE_NAME;
+CREATE TABLE TABLE_NAME;
+```
 ## AWS
 Upload data to S3
 ```
