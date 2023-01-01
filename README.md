@@ -14,7 +14,10 @@ cat id_rsa2.pub
 Send data retrive to a file
 ```
 command > /directory/file_to_create
-
+```
+Generate random numbers from 20 to 30, retrive the 1st number on the list
+```
+shuf -i 20-30 -n 1
 ```
 ## Docker
 Dockerfile to implement diverse systems
