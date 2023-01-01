@@ -1,5 +1,5 @@
 # useful-when-it-needed
-## Useful Linux Commands
+## Linux
 
 Find files in system
 ```
@@ -28,4 +28,10 @@ docker exec -it podid bash
 Review pod log 
 ```
 docker logs -f podid
+```
+## MySQL
+
+Login to MySQL
+```
+mysql -u username -p password
 ```
