@@ -11,6 +11,11 @@ ssh-keygen -t rsa
 id_rsa2
 cat id_rsa2.pub
 ```
+Send data retrive to a file
+```
+command > /directory/file_to_create
+
+```
 ## Docker
 Dockerfile to implement diverse systems
 ```
