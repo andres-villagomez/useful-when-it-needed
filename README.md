@@ -12,11 +12,16 @@ id_rsa2
 cat id_rsa2.pub
 ```
 ## Docker
-Connect to docker instance
+
+Start your dockerfile
 ```
-docker exec -it podid bash
+docker-compoase up -d
 ```
 Review podid
 ```
 docker ps
+```
+Connect to docker instance
+```
+docker exec -it podid bash
 ```
