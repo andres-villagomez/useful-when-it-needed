@@ -19,6 +19,10 @@ Generate random numbers from 20 to 30, retrive the 1st number on the list
 ```
 shuf -i 20-30 -n 1
 ```
+Number .txt lines
+```
+nl file_to_number.txt
+```
 ## Docker
 Dockerfile to implement diverse systems
 ```
