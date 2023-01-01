@@ -128,3 +128,7 @@ Excecute ansible actions
 ```
 ansible -i host_file -m ping host_name
 ```
+Excecute bash with Ansible
+```
+shell: excecute_linux_commands
+```
