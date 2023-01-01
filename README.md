@@ -25,3 +25,7 @@ Connect to docker instance
 ```
 docker exec -it podid bash
 ```
+Review pod log 
+```
+docker logs -f podid
+```
