@@ -121,6 +121,5 @@ mysql -u username -p password
 ## AWS
 Upload data to S3
 ```
-aws s3 cp /tmp/file_to
-_upload s3:/bucket_name/upload_file_name
+aws s3 cp /tmp/file_to_upload s3:/bucket_name/upload_file_name
 ```
