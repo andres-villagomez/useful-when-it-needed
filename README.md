@@ -123,3 +123,8 @@ Upload data to S3
 ```
 aws s3 cp /tmp/file_to_upload s3:/bucket_name/upload_file_name
 ```
+## Ansible
+Excecute ansible actions
+```
+ansible -i host_file -m ping host_name
+```
