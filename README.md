@@ -1,4 +1,10 @@
 # useful-when-it-needed
+
+## Git
+Return to Master and delete your commits that were not pushed yet
+```
+git reset master
+```
 ## Linux
 
 Find files in system
