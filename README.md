@@ -165,8 +165,20 @@ ansible-playbook -i host_file yml_file.yml
 ```
 ## RPM
 ```
+sudo apt update
+```
+```
+sudo apt install tar gzip build-essential
+```
+```
 tar xf software-name.tar.gz
+```
+```
 ./configure
+```
+```
 make
+```
+```
 sudo make install
 ```
