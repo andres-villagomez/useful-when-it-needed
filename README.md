@@ -163,3 +163,10 @@ Excecute Playbook with Ansible
 ```
 ansible-playbook -i host_file yml_file.yml
 ```
+## RPM
+```
+tar xf software-name.tar.gz
+./configure
+make
+sudo make install
+```
